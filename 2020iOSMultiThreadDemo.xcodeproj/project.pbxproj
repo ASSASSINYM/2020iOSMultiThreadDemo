@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52E59DCE1CF9848F94CCC0E1 /* libPods-2020iOSMultiThreadDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAF5AD2A632E19ED58926DF /* libPods-2020iOSMultiThreadDemo.a */; };
 		65317FCC259C74CD00860975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65317FCB259C74CD00860975 /* AppDelegate.m */; };
 		65317FCF259C74CD00860975 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65317FCE259C74CD00860975 /* SceneDelegate.m */; };
 		65317FD2259C74CD00860975 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65317FD1259C74CD00860975 /* ViewController.m */; };
@@ -56,6 +57,9 @@
 		65317FF0259C74D100860975 /* 2020iOSMultiThreadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2020iOSMultiThreadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65317FF4259C74D100860975 /* _020iOSMultiThreadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _020iOSMultiThreadDemoUITests.m; sourceTree = "<group>"; };
 		65317FF6259C74D100860975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72717881EB708E9634001CD9 /* Pods-2020iOSMultiThreadDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2020iOSMultiThreadDemo.release.xcconfig"; path = "Target Support Files/Pods-2020iOSMultiThreadDemo/Pods-2020iOSMultiThreadDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DEAF5AD2A632E19ED58926DF /* libPods-2020iOSMultiThreadDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-2020iOSMultiThreadDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90FC7015E4F661415A28BDC /* Pods-2020iOSMultiThreadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2020iOSMultiThreadDemo.debug.xcconfig"; path = "Target Support Files/Pods-2020iOSMultiThreadDemo/Pods-2020iOSMultiThreadDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E59DCE1CF9848F94CCC0E1 /* libPods-2020iOSMultiThreadDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		367E556CFA33A1B7EA2823F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E90FC7015E4F661415A28BDC /* Pods-2020iOSMultiThreadDemo.debug.xcconfig */,
+				72717881EB708E9634001CD9 /* Pods-2020iOSMultiThreadDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		65317FBE259C74CD00860975 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +105,8 @@
 				65317FE8259C74D100860975 /* 2020iOSMultiThreadDemoTests */,
 				65317FF3259C74D100860975 /* 2020iOSMultiThreadDemoUITests */,
 				65317FC8259C74CD00860975 /* Products */,
+				367E556CFA33A1B7EA2823F9 /* Pods */,
+				84C3C6452A9AE24074D192A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,14 @@
 			path = 2020iOSMultiThreadDemoUITests;
 			sourceTree = "<group>";
 		};
+		84C3C6452A9AE24074D192A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEAF5AD2A632E19ED58926DF /* libPods-2020iOSMultiThreadDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65317FF9259C74D100860975 /* Build configuration list for PBXNativeTarget "2020iOSMultiThreadDemo" */;
 			buildPhases = (
+				F3831D41BCE89A804E6603A4 /* [CP] Check Pods Manifest.lock */,
 				65317FC3259C74CD00860975 /* Sources */,
 				65317FC4259C74CD00860975 /* Frameworks */,
 				65317FC5259C74CD00860975 /* Resources */,
@@ -263,6 +289,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F3831D41BCE89A804E6603A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-2020iOSMultiThreadDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65317FC3259C74CD00860975 /* Sources */ = {
@@ -442,6 +493,7 @@
 		};
 		65317FFA259C74D100860975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90FC7015E4F661415A28BDC /* Pods-2020iOSMultiThreadDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +512,7 @@
 		};
 		65317FFB259C74D100860975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72717881EB708E9634001CD9 /* Pods-2020iOSMultiThreadDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
