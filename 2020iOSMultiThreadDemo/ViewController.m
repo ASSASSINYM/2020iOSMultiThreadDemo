@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface ViewController ()
 
@@ -17,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    BOOL ss = [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"cydia://"]];
+    
     
 }
 

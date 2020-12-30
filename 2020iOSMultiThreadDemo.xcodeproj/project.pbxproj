@@ -94,7 +94,6 @@
 				E90FC7015E4F661415A28BDC /* Pods-2020iOSMultiThreadDemo.debug.xcconfig */,
 				72717881EB708E9634001CD9 /* Pods-2020iOSMultiThreadDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -123,6 +122,7 @@
 		65317FC9259C74CD00860975 /* 2020iOSMultiThreadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6531800D259C7AFC00860975 /* NSThread */,
 				65317FCA259C74CD00860975 /* AppDelegate.h */,
 				65317FCB259C74CD00860975 /* AppDelegate.m */,
 				65317FCD259C74CD00860975 /* SceneDelegate.h */,
@@ -155,6 +155,13 @@
 				65317FF6259C74D100860975 /* Info.plist */,
 			);
 			path = 2020iOSMultiThreadDemoUITests;
+			sourceTree = "<group>";
+		};
+		6531800D259C7AFC00860975 /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSThread;
 			sourceTree = "<group>";
 		};
 		84C3C6452A9AE24074D192A3 /* Frameworks */ = {
