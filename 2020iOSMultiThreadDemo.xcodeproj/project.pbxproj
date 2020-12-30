@@ -20,6 +20,7 @@
 		65317FF5259C74D100860975 /* _020iOSMultiThreadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65317FF4259C74D100860975 /* _020iOSMultiThreadDemoUITests.m */; };
 		65318010259C7B3600860975 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6531800F259C7B3600860975 /* NSThreadViewController.m */; };
 		65318018259C7DF500860975 /* Concurrent Programming: APIs and Challenges · objc.io.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65318017259C7DF500860975 /* Concurrent Programming: APIs and Challenges · objc.io.pdf */; };
+		6531801F259C819500860975 /* PThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6531801E259C819500860975 /* PThreadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		6531800E259C7B3600860975 /* NSThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadViewController.h; sourceTree = "<group>"; };
 		6531800F259C7B3600860975 /* NSThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadViewController.m; sourceTree = "<group>"; };
 		65318017259C7DF500860975 /* Concurrent Programming: APIs and Challenges · objc.io.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Concurrent Programming: APIs and Challenges · objc.io.pdf"; sourceTree = "<group>"; };
+		6531801D259C819500860975 /* PThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PThreadViewController.h; sourceTree = "<group>"; };
+		6531801E259C819500860975 /* PThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PThreadViewController.m; sourceTree = "<group>"; };
 		72717881EB708E9634001CD9 /* Pods-2020iOSMultiThreadDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2020iOSMultiThreadDemo.release.xcconfig"; path = "Target Support Files/Pods-2020iOSMultiThreadDemo/Pods-2020iOSMultiThreadDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DEAF5AD2A632E19ED58926DF /* libPods-2020iOSMultiThreadDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-2020iOSMultiThreadDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90FC7015E4F661415A28BDC /* Pods-2020iOSMultiThreadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2020iOSMultiThreadDemo.debug.xcconfig"; path = "Target Support Files/Pods-2020iOSMultiThreadDemo/Pods-2020iOSMultiThreadDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +130,7 @@
 		65317FC9259C74CD00860975 /* 2020iOSMultiThreadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6531801C259C817C00860975 /* PThread */,
 				65318017259C7DF500860975 /* Concurrent Programming: APIs and Challenges · objc.io.pdf */,
 				6531800D259C7AFC00860975 /* NSThread */,
 				65317FCA259C74CD00860975 /* AppDelegate.h */,
@@ -170,6 +174,15 @@
 				6531800F259C7B3600860975 /* NSThreadViewController.m */,
 			);
 			path = NSThread;
+			sourceTree = "<group>";
+		};
+		6531801C259C817C00860975 /* PThread */ = {
+			isa = PBXGroup;
+			children = (
+				6531801D259C819500860975 /* PThreadViewController.h */,
+				6531801E259C819500860975 /* PThreadViewController.m */,
+			);
+			path = PThread;
 			sourceTree = "<group>";
 		};
 		84C3C6452A9AE24074D192A3 /* Frameworks */ = {
@@ -338,6 +351,7 @@
 			files = (
 				65317FE0259C74D100860975 /* main.m in Sources */,
 				65318010259C7B3600860975 /* NSThreadViewController.m in Sources */,
+				6531801F259C819500860975 /* PThreadViewController.m in Sources */,
 				65317FD2259C74CD00860975 /* ViewController.m in Sources */,
 				65317FCC259C74CD00860975 /* AppDelegate.m in Sources */,
 				65317FCF259C74CD00860975 /* SceneDelegate.m in Sources */,
