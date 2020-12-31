@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PThreadViewController : UIViewController
+@interface MPThreadViewController : UIViewController
 
 @end
 

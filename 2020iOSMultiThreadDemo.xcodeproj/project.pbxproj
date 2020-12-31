@@ -20,7 +20,12 @@
 		65317FF5259C74D100860975 /* _020iOSMultiThreadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65317FF4259C74D100860975 /* _020iOSMultiThreadDemoUITests.m */; };
 		65318010259C7B3600860975 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6531800F259C7B3600860975 /* NSThreadViewController.m */; };
 		65318018259C7DF500860975 /* Concurrent Programming: APIs and Challenges · objc.io.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65318017259C7DF500860975 /* Concurrent Programming: APIs and Challenges · objc.io.pdf */; };
-		6531801F259C819500860975 /* PThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6531801E259C819500860975 /* PThreadViewController.m */; };
+		6531801F259C819500860975 /* MPThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6531801E259C819500860975 /* MPThreadViewController.m */; };
+		6531802E259C838400860975 /* FindMinMaxThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 6531802D259C838400860975 /* FindMinMaxThread.m */; };
+		6531803E259D5FD800860975 /* MTDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6531803D259D5FD800860975 /* MTDownloadManager.m */; };
+		65318045259D629F00860975 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 65318043259D629F00860975 /* NSString+Hash.m */; };
+		6531804B259D62DC00860975 /* MTSSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6531804A259D62DC00860975 /* MTSSessionModel.m */; };
+		65318072259D72AE00860975 /* MTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65318071259D72AE00860975 /* MTFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +68,18 @@
 		6531800E259C7B3600860975 /* NSThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadViewController.h; sourceTree = "<group>"; };
 		6531800F259C7B3600860975 /* NSThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadViewController.m; sourceTree = "<group>"; };
 		65318017259C7DF500860975 /* Concurrent Programming: APIs and Challenges · objc.io.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Concurrent Programming: APIs and Challenges · objc.io.pdf"; sourceTree = "<group>"; };
-		6531801D259C819500860975 /* PThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PThreadViewController.h; sourceTree = "<group>"; };
-		6531801E259C819500860975 /* PThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PThreadViewController.m; sourceTree = "<group>"; };
+		6531801D259C819500860975 /* MPThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPThreadViewController.h; sourceTree = "<group>"; };
+		6531801E259C819500860975 /* MPThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPThreadViewController.m; sourceTree = "<group>"; };
+		6531802C259C838400860975 /* FindMinMaxThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindMinMaxThread.h; sourceTree = "<group>"; };
+		6531802D259C838400860975 /* FindMinMaxThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindMinMaxThread.m; sourceTree = "<group>"; };
+		6531803C259D5FD800860975 /* MTDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTDownloadManager.h; sourceTree = "<group>"; };
+		6531803D259D5FD800860975 /* MTDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTDownloadManager.m; sourceTree = "<group>"; };
+		65318043259D629F00860975 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		65318044259D629F00860975 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		65318049259D62DC00860975 /* MTSSessionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTSSessionModel.h; sourceTree = "<group>"; };
+		6531804A259D62DC00860975 /* MTSSessionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTSSessionModel.m; sourceTree = "<group>"; };
+		65318070259D72AE00860975 /* MTFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFileManager.h; sourceTree = "<group>"; };
+		65318071259D72AE00860975 /* MTFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFileManager.m; sourceTree = "<group>"; };
 		72717881EB708E9634001CD9 /* Pods-2020iOSMultiThreadDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2020iOSMultiThreadDemo.release.xcconfig"; path = "Target Support Files/Pods-2020iOSMultiThreadDemo/Pods-2020iOSMultiThreadDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DEAF5AD2A632E19ED58926DF /* libPods-2020iOSMultiThreadDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-2020iOSMultiThreadDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90FC7015E4F661415A28BDC /* Pods-2020iOSMultiThreadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2020iOSMultiThreadDemo.debug.xcconfig"; path = "Target Support Files/Pods-2020iOSMultiThreadDemo/Pods-2020iOSMultiThreadDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +145,7 @@
 		65317FC9259C74CD00860975 /* 2020iOSMultiThreadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				65318032259D5FB000860975 /* 下载 */,
 				6531801C259C817C00860975 /* PThread */,
 				65318017259C7DF500860975 /* Concurrent Programming: APIs and Challenges · objc.io.pdf */,
 				6531800D259C7AFC00860975 /* NSThread */,
@@ -172,6 +188,8 @@
 			children = (
 				6531800E259C7B3600860975 /* NSThreadViewController.h */,
 				6531800F259C7B3600860975 /* NSThreadViewController.m */,
+				6531802C259C838400860975 /* FindMinMaxThread.h */,
+				6531802D259C838400860975 /* FindMinMaxThread.m */,
 			);
 			path = NSThread;
 			sourceTree = "<group>";
@@ -179,10 +197,33 @@
 		6531801C259C817C00860975 /* PThread */ = {
 			isa = PBXGroup;
 			children = (
-				6531801D259C819500860975 /* PThreadViewController.h */,
-				6531801E259C819500860975 /* PThreadViewController.m */,
+				6531801D259C819500860975 /* MPThreadViewController.h */,
+				6531801E259C819500860975 /* MPThreadViewController.m */,
 			);
 			path = PThread;
+			sourceTree = "<group>";
+		};
+		65318032259D5FB000860975 /* 下载 */ = {
+			isa = PBXGroup;
+			children = (
+				6531804F259D630D00860975 /* 原生下载 */,
+			);
+			path = "下载";
+			sourceTree = "<group>";
+		};
+		6531804F259D630D00860975 /* 原生下载 */ = {
+			isa = PBXGroup;
+			children = (
+				65318044259D629F00860975 /* NSString+Hash.h */,
+				65318043259D629F00860975 /* NSString+Hash.m */,
+				6531803C259D5FD800860975 /* MTDownloadManager.h */,
+				6531803D259D5FD800860975 /* MTDownloadManager.m */,
+				65318049259D62DC00860975 /* MTSSessionModel.h */,
+				6531804A259D62DC00860975 /* MTSSessionModel.m */,
+				65318070259D72AE00860975 /* MTFileManager.h */,
+				65318071259D72AE00860975 /* MTFileManager.m */,
+			);
+			path = "原生下载";
 			sourceTree = "<group>";
 		};
 		84C3C6452A9AE24074D192A3 /* Frameworks */ = {
@@ -349,9 +390,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6531804B259D62DC00860975 /* MTSSessionModel.m in Sources */,
+				6531802E259C838400860975 /* FindMinMaxThread.m in Sources */,
+				6531803E259D5FD800860975 /* MTDownloadManager.m in Sources */,
 				65317FE0259C74D100860975 /* main.m in Sources */,
+				65318045259D629F00860975 /* NSString+Hash.m in Sources */,
 				65318010259C7B3600860975 /* NSThreadViewController.m in Sources */,
-				6531801F259C819500860975 /* PThreadViewController.m in Sources */,
+				6531801F259C819500860975 /* MPThreadViewController.m in Sources */,
+				65318072259D72AE00860975 /* MTFileManager.m in Sources */,
 				65317FD2259C74CD00860975 /* ViewController.m in Sources */,
 				65317FCC259C74CD00860975 /* AppDelegate.m in Sources */,
 				65317FCF259C74CD00860975 /* SceneDelegate.m in Sources */,
